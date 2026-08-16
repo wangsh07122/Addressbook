@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchByMonthClass</class>
+ <widget class="QDialog" name="SearchByMonthClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SearchByMonth</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>请选择月份：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>1月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11月</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12月</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_ok">
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
